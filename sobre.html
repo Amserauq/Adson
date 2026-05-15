@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Sobre Mim - Portfólio</title>
+	<style>
+		body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:0;background:#f5f7fb;min-height:100vh}
+		.container{max-width:800px;margin:0 auto;padding:2rem 1rem}
+		header{margin-bottom:2rem}
+		h1{color:#1f2937;margin:0 0 1rem;font-size:2rem}
+		.subtitle{color:#6b7280;margin:0;font-size:1.05rem}
+		.back-link{display:inline-block;margin-bottom:1rem}
+		.back-link a{color:#2563eb;text-decoration:none;font-size:0.95rem}
+		.back-link a:hover{text-decoration:underline}
+		.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(20,30,60,0.08);padding:2rem;margin-bottom:1.5rem;line-height:1.8}
+		.card h2{color:#1f2937;margin-top:0;margin-bottom:1rem;font-size:1.5rem;border-bottom:2px solid #e5e7eb;padding-bottom:0.75rem}
+		.card p{color:#374151;margin:0.75rem 0}
+		.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-top:1rem}
+		.skill-item{background:#f3f4f6;padding:1rem;border-radius:8px;text-align:center;border-left:4px solid #2563eb}
+		.skill-item strong{color:#1f2937;display:block;margin-bottom:0.5rem}
+		.skill-item small{color:#6b7280}
+		.experience-item{margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid #e5e7eb}
+		.experience-item:last-child{border-bottom:none}
+		.experience-item h3{color:#1f2937;margin:0 0 0.5rem;font-size:1.1rem}
+		.experience-item .role{color:#2563eb;font-weight:600;margin-bottom:0.25rem}
+		.experience-item .period{color:#6b7280;font-size:0.9rem}
+		.social-links{display:flex;gap:1rem;margin-top:1rem;flex-wrap:wrap}
+		.social-links a{display:inline-block;padding:0.75rem 1.5rem;background:#2563eb;color:#fff;text-decoration:none;border-radius:6px;transition:background 0.3s;font-size:0.95rem}
+		.social-links a:hover{background:#1d4ed8}
+		.highlight{color:#2563eb;font-weight:600}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="back-link">
+			<a href="Pagina inicial.html">← Voltar para página inicial</a>
+		</div>
+		<header>
+			<h1>Sobre Mim</h1>
+			<p class="subtitle">Conheça um pouco mais sobre quem sou</p>
+		</header>
+
+		<!-- Seção Sobre -->
+		<div class="card">
+			<h2>Quem Sou Eu</h2>
+			<p>
+				Olá! Meu nome é <span class="highlight">Carlos Quaresma</span>. Sou um desenvolvedor web apaixonado por criar 
+				experiências digitais incríveis e acessíveis. Com foco em <span class="highlight">front-end</span>, 
+				busco constantemente aprender novas tecnologias e melhores práticas de desenvolvimento.
+			</p>
+			<p>
+				Sou dedicado em transformar ideias em realidade através de código limpo, bem estruturado e 
+				que prioriza a experiência do usuário. Acredito que bom design e funcionalidade andam de mãos dadas.
+			</p>
+		</div>
+
+		<!-- Seção Habilidades -->
+		<div class="card">
+			<h2>Minhas Habilidades</h2>
+			<div class="skills-grid">
+				<div class="skill-item">
+					<strong>HTML5</strong>
+					<small>Estruturação web</small>
+				</div>
+				<div class="skill-item">
+					<strong>CSS3</strong>
+					<small>Estilo & Design</small>
+				</div>
+				<div class="skill-item">
+					<strong>JavaScript</strong>
+					<small>Interatividade</small>
+				</div>
+				<div class="skill-item">
+					<strong>React</strong>
+					<small>Componentes</small>
+				</div>
+				<div class="skill-item">
+					<strong>Responsive</strong>
+					<small>Mobile First</small>
+				</div>
+				<div class="skill-item">
+					<strong>Git</strong>
+					<small>Versionamento</small>
+				</div>
+				<div class="skill-item">
+					<strong>Node.js</strong>
+					<small>Backend</small>
+				</div>
+				<div class="skill-item">
+					<strong>MongoDB</strong>
+					<small>Banco de Dados</small>
+				</div>
+			</div>
+		</div>
+
+		<!-- Seção Experiência -->
+		<div class="card">
+			<h2>Experiência Profissional</h2>
+			
+			<div class="experience-item">
+				<h3>Desenvolvedor Front-End</h3>
+				<div class="role">Empresa Fictícia XYZ</div>
+				<div class="period">Jan 2024 - Presente</div>
+				<p>
+					Desenvolvendo interfaces web responsivas e acessíveis. Utilizo React e JavaScript 
+					para criar aplicações interativas de alta performance.
+				</p>
+			</div>
+
+			<div class="experience-item">
+				<h3>Desenvolvedor Full Stack</h3>
+				<div class="role">Startup ABC</div>
+				<div class="period">Jun 2023 - Dez 2023</div>
+				<p>
+					Trabalhei em um projeto de e-commerce, desenvolvendo tanto o front-end quanto a API REST 
+					com Node.js e MongoDB. Implementei features de autenticação e pagamento.
+				</p>
+			</div>
+
+			<div class="experience-item">
+				<h3>Estagiário em Desenvolvimento Web</h3>
+				<div class="role">Agência Digital 123</div>
+				<div class="period">Mar 2023 - Mai 2023</div>
+				<p>
+					Primeiro contato profissional com desenvolvimento web. Aprendi práticas de HTML5, CSS3 
+					e JavaScript vanilla enquanto criava páginas responsivas para clientes.
+				</p>
+			</div>
+		</div>
+
+		<!-- Seção Educação -->
+		<div class="card">
+			<h2>Educação</h2>
+			<div class="experience-item">
+				<h3>Desenvolvimento Web Full Stack</h3>
+				<div class="role">Bootcamp Online</div>
+				<div class="period">2023</div>
+				<p>Bootcamp intensivo de 6 meses focado em desenvolvimento web moderno com React, Node.js e bancos de dados.</p>
+			</div>
+		</div>
+
+		<!-- Seção Contato -->
+		<div class="card">
+			<h2>Vamos Conversar!</h2>
+			<p>
+				Estou sempre aberto a novas oportunidades, colaborações e conversas interessantes sobre 
+				desenvolvimento web. Sinta-se livre para entrar em contato comigo.
+			</p>
+			<div class="social-links">
+				<a href="mailto:carlosadson454@gmail.com">Email</a>
+				<a href="https://www.linkedin.com/in/carlos-quaresma-3197873a0/" target="_blank">LinkedIn</a>
+				<a href="Contato">Formulário de Contato</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

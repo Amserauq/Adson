@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Meus Projetos - Portfólio</title>
+	<style>
+		body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:0;background:#f5f7fb;min-height:100vh}
+		.container{max-width:1000px;margin:0 auto;padding:2rem 1rem}
+		header{margin-bottom:2rem}
+		h1{color:#1f2937;margin:0 0 1rem;font-size:2rem}
+		.back-link{display:inline-block;margin-bottom:1rem}
+		.back-link a{color:#2563eb;text-decoration:none;font-size:0.95rem}
+		.back-link a:hover{text-decoration:underline}
+		.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:1.5rem}
+		.project-card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(20,30,60,0.08);overflow:hidden;transition:transform 0.3s,box-shadow 0.3s}
+		.project-card:hover{transform:translateY(-4px);box-shadow:0 6px 24px rgba(20,30,60,0.12)}
+		.project-header{background:linear-gradient(135deg,#2563eb 0%,#1d4ed8 100%);padding:1.5rem;color:#fff}
+		.project-header h2{margin:0;font-size:1.25rem}
+		.project-header p{margin:0.5rem 0 0;opacity:0.9;font-size:0.9rem}
+		.project-body{padding:1.5rem}
+		.project-body p{margin:0.75rem 0;color:#374151;line-height:1.6}
+		.project-tags{display:flex;gap:0.5rem;margin:1rem 0;flex-wrap:wrap}
+		.tag{background:#e0e7ff;color:#3730a3;padding:0.35rem 0.75rem;border-radius:999px;font-size:0.8rem;font-weight:500}
+		.project-links{display:flex;gap:0.5rem;margin-top:1rem;flex-wrap:wrap}
+		.project-links a{display:inline-block;padding:0.5rem 1rem;background:#2563eb;color:#fff;text-decoration:none;border-radius:6px;font-size:0.9rem;transition:background 0.3s}
+		.project-links a:hover{background:#1d4ed8}
+		.project-links a.secondary{background:#e5e7eb;color:#374151}
+		.project-links a.secondary:hover{background:#d1d5db}
+		.empty-state{text-align:center;padding:3rem 1rem;color:#6b7280}
+		.empty-state p{margin:0}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="back-link">
+			<a href="Pagina inicial.html">← Voltar para página inicial</a>
+		</div>
+		<header>
+			<h1>Meus Projetos</h1>
+			<p style="color:#6b7280;margin:0">Confira alguns dos projetos em que trabalhei</p>
+		</header>
+
+		<div class="projects-grid">
+			<!-- Projeto 1 -->
+			<article class="project-card">
+				<div class="project-header">
+					<h2>Projeto A</h2>
+					<p>Site Responsivo</p>
+				</div>
+				<div class="project-body">
+					<p>Um site completamente responsivo desenvolvido com HTML5, CSS3 e JavaScript vanilla. Funciona perfeitamente em desktop, tablet e mobile.</p>
+					<div class="project-tags">
+						<span class="tag">HTML5</span>
+						<span class="tag">CSS3</span>
+						<span class="tag">JavaScript</span>
+					</div>
+					<div class="project-links">
+						<a href="#">Ver Projeto</a>
+						<a href="#" class="secondary">Código</a>
+					</div>
+				</div>
+			</article>
+
+			<!-- Projeto 2 -->
+			<article class="project-card">
+				<div class="project-header">
+					<h2>Projeto B</h2>
+					<p>Aplicação Web</p>
+				</div>
+				<div class="project-body">
+					<p>Uma aplicação web interativa com interface moderna e funcionalidades avançadas. Otimizada para performance e experiência do usuário.</p>
+					<div class="project-tags">
+						<span class="tag">React</span>
+						<span class="tag">CSS</span>
+						<span class="tag">API REST</span>
+					</div>
+					<div class="project-links">
+						<a href="#">Ver Projeto</a>
+						<a href="#" class="secondary">Código</a>
+					</div>
+				</div>
+			</article>
+
+			<!-- Projeto 3 -->
+			<article class="project-card">
+				<div class="project-header">
+					<h2>Projeto C</h2>
+					<p>Dashboard de Dados</p>
+				</div>
+				<div class="project-body">
+					<p>Dashboard interativo para visualização e análise de dados em tempo real. Interface intuitiva com gráficos e tabelas dinâmicas.</p>
+					<div class="project-tags">
+						<span class="tag">Vue.js</span>
+						<span class="tag">Chart.js</span>
+						<span class="tag">Backend</span>
+					</div>
+					<div class="project-links">
+						<a href="#">Ver Projeto</a>
+						<a href="#" class="secondary">Código</a>
+					</div>
+				</div>
+			</article>
+
+			<!-- Projeto 4 -->
+			<article class="project-card">
+				<div class="project-header">
+					<h2>Projeto D</h2>
+					<p>E-commerce</p>
+				</div>
+				<div class="project-body">
+					<p>Plataforma de e-commerce completa com carrinho de compras, integração de pagamento e painel administrativo.</p>
+					<div class="project-tags">
+						<span class="tag">Node.js</span>
+						<span class="tag">MongoDB</span>
+						<span class="tag">Stripe</span>
+					</div>
+					<div class="project-links">
+						<a href="#">Ver Projeto</a>
+						<a href="#" class="secondary">Código</a>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</body>
+</html>
